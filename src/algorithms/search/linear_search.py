@@ -2,11 +2,11 @@
 Linear Search Implementations
 
 Time Complexity:
-		Worst: O(n) "Linear"
-		Average: O(n/2)
-		Best: O(1)
+    Worst: O(n) "Linear"
+    Average: O(n/2)
+    Best: O(1)
 Space Complexity:
-		Worst: O(1) "Constant"
+    Worst: O(1) "Constant"
 """
 
 ELEMENT_NOT_FOUND = -1

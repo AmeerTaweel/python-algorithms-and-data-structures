@@ -2,11 +2,11 @@
 Binary Search Implementations
 
 Time Complexity:
-	Worst: O(log n) "Linear"
-	Average: O(log n) "Logarithmic"
-	Best: O(1)
+    Worst: O(log n) "Linear"
+    Average: O(log n) "Logarithmic"
+    Best: O(1)
 Space Complexity:
-	Worst: O(1) "Constant"
+    Worst: O(1) "Constant"
 """
 
 import math
