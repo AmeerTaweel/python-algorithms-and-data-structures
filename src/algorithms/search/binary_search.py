@@ -20,22 +20,27 @@ import math
 ELEMENT_NOT_FOUND = -1
 
 
-def binary_search(items, search_item):
+def binary_search(search_list, target):
     """
     Implementation of the binary search algorithm.
 
-    Return the index of the search_item if it is in a sorted list.
-    The list must be sorted for this to work
-    Return -1 otherwise.
+    Input:
+        search_list: Sorted list of items (Usually numbers)
+        target: The item to find
+
+    Output:
+        Return the index of the target if it is in the list.
+        Return -1 otherwise.
     """
+
     start = 0
-    end = len(items) - 1
+    end = len(search_list) - 1
 
     while start <= end:
         mid = start + math.floor((end - start) / 2)
-        if items[mid] == search_item:
+        if search_list[mid] == target:
             return mid
-        if items[mid] > search_item:
+        if search_list[mid] > target:
             end = mid - 1
         else:
             start = mid + 1
