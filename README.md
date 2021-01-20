@@ -13,3 +13,4 @@
 * [Selection Sort](src/algorithms/sort/selection_sort.py)
 * [Merge Sort](src/algorithms/sort/merge_sort.py)
 * [Insertion Sort](src/algorithms/sort/insetion_sort.py)
+* [Counting Sort](src/algorithms/sort/counting_sort.py)
