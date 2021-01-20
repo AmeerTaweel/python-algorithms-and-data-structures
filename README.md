@@ -10,3 +10,4 @@
 ### Sort Algorithms
 
 * [Bubble Sort](src/algorithms/sort/bubble_sort.py)
+* [Selection Sort](src/algorithms/sort/selection_sort.py)
